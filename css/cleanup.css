@@ -1,1 +1,13 @@
 /* write your override styles here */
+
+#wall .tag-1,
+#wall #tag-2:nth-child(2),
+#wall #tag-3.slick.wicked,
+#wall .parent > #tag-4,
+#wall .parent #tag-5.slick:first-child,
+#wall .parent div:last-child #tag-6:last-of-type,
+#wall div.parent div > #tag-7.slick:only-child
+ {
+   display: none;
+}
+
